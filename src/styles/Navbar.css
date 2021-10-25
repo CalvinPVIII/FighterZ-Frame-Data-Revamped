@@ -1,0 +1,35 @@
+.navbar {
+    margin-top: 30%;
+    width: 100%;
+
+    background-color: #ff9a23;
+}
+
+.navbar-text-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.navbar-top {
+    border: 1px solid black;
+    padding: 5px;
+    padding-top: 4px;
+    background-color: #ff6f17;
+}
+.navbar-bottom {
+    border: 1px solid black;
+    padding: 5px;
+    padding-bottom: 4px;
+    background-color: #ff6f17;
+}
+.bottom-right-corner {
+    transform: scale(-1);
+    margin-bottom: -20px;
+}
+
+.top-right-corner {
+    transform: scaleX(-1);
+}
+.bottom-left-corner {
+    transform: scaleY(-1);
+}
