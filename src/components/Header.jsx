@@ -15,7 +15,9 @@ function Header() {
                     alt="Dragon Ball FighterZ Logo"
                 />
             </div>
-            <Navbar />
+            <div class="navbar-wrapper">
+                <Navbar />
+            </div>
         </div>
     );
 }
